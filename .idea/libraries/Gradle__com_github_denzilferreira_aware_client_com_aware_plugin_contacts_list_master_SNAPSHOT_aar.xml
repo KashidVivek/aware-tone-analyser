@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.denzilferreira.aware-client:com.aware.plugin.contacts_list:master-SNAPSHOT@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/com.aware.plugin.contacts_list-master-SNAPSHOT.aar/8f151fd0ee6512bfe2e4370e55ad55ba/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/com.aware.plugin.contacts_list-master-SNAPSHOT.aar/8f151fd0ee6512bfe2e4370e55ad55ba/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/com.aware.plugin.contacts_list-master-SNAPSHOT.aar/8f151fd0ee6512bfe2e4370e55ad55ba/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

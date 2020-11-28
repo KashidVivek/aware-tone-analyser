@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ibm.cloud:sdk-core:8.4.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.cloud/sdk-core/8.4.3/76a985765cc31d1d7609cd166863dab6617026ae/sdk-core-8.4.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.cloud/sdk-core/8.4.3/705c05c00ad061ce7fa619bb1d76c95e643641a9/sdk-core-8.4.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.cloud/sdk-core/8.4.3/b2e253aa0658613957d55f5a18c6d6a7fbbfa53d/sdk-core-8.4.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

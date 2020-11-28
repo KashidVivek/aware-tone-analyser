@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.denzilferreira.aware-client:com.aware.plugin.openweather:master-SNAPSHOT@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/com.aware.plugin.openweather-master-SNAPSHOT.aar/6cbc9f86896d98de17c8efb30210c727/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/com.aware.plugin.openweather-master-SNAPSHOT.aar/6cbc9f86896d98de17c8efb30210c727/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/com.aware.plugin.openweather-master-SNAPSHOT.aar/6cbc9f86896d98de17c8efb30210c727/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

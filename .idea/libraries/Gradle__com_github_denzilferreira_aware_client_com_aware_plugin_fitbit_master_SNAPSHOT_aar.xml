@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.denzilferreira.aware-client:com.aware.plugin.fitbit:master-SNAPSHOT@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/com.aware.plugin.fitbit-master-SNAPSHOT.aar/453661a24f3f8c9b345497dd9fc66848/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/com.aware.plugin.fitbit-master-SNAPSHOT.aar/453661a24f3f8c9b345497dd9fc66848/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/com.aware.plugin.fitbit-master-SNAPSHOT.aar/453661a24f3f8c9b345497dd9fc66848/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.denzilferreira.aware-client:com.aware.plugin.device_usage:master-SNAPSHOT@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/com.aware.plugin.device_usage-master-SNAPSHOT.aar/aa485ff7f2136eb1500bfcff6fe67fa9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/com.aware.plugin.device_usage-master-SNAPSHOT.aar/aa485ff7f2136eb1500bfcff6fe67fa9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/com.aware.plugin.device_usage-master-SNAPSHOT.aar/aa485ff7f2136eb1500bfcff6fe67fa9/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
