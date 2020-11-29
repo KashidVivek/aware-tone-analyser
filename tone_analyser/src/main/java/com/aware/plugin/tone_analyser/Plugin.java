@@ -25,6 +25,14 @@ public class Plugin extends Aware_Plugin {
     private String tone = null;
     public static final String ACTION_AWARE_PLUGIN_TONE_ANALYSER = "ACTION_AWARE_PLUGIN_TONE_ANALYSER";
     public static final String TONE ="tone";
+
+    public String getTone() {
+        return tone;
+    }
+
+    public void setTone(String tone) {
+        this.tone = tone;
+    }
     @Override
     public void onCreate() {
         super.onCreate();
@@ -47,7 +55,7 @@ public class Plugin extends Aware_Plugin {
                 ContentValues context_data = new ContentValues();
                 context_data.put(Provider.ToneAnalyser_Data.TIMESTAMP, System.currentTimeMillis());
                 context_data.put(Provider.ToneAnalyser_Data.DEVICE_ID, Aware.getSetting(getApplicationContext(), Aware_Preferences.DEVICE_ID));
-                context_data.put(Provider.ToneAnalyser_Data.TONE, tone);
+                context_data.put(Provider.ToneAnalyser_Data.TONE, getTone());
 
 
                 if (DEBUG) Log.d(TAG, context_data.toString());
@@ -122,7 +130,7 @@ public class Plugin extends Aware_Plugin {
                                 String textToAnalyse = text.toString().replace("[","").replace("]","");
                                 RetrieveToneTask emotion = new RetrieveToneTask(getApplicationContext(),textToAnalyse);
                                 try {
-                                    tone = emotion.execute().get();
+                                    setTone(emotion.execute().get());
                                 } catch (ExecutionException e) {
                                     e.printStackTrace();
                                 } catch (InterruptedException e) {

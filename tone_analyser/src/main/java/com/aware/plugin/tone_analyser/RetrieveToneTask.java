@@ -16,6 +16,7 @@ import com.ibm.watson.tone_analyzer.v3.model.ToneOptions;
 public class RetrieveToneTask extends AsyncTask<Void,Void,String> {
     private Context context;
     public String textToAnalyse;
+    public String EMPTY_TONE = "NO_TONE_DETECTED";
 
     public RetrieveToneTask(Context context, String textToAnalyse){
         this.context = context;
@@ -32,11 +33,18 @@ public class RetrieveToneTask extends AsyncTask<Void,Void,String> {
                     .build();
 
             ToneAnalysis toneAnalysis = toneAnalyzer.tone(toneOptions).execute().getResult();
+            if(toneAnalysis.getDocumentTone().getTones().toString().equals("[]")){
+                return EMPTY_TONE;
+            }
             String msg = toneAnalysis.getDocumentTone().getTones().get(0).getToneName();
+            if (msg != null)
+                return msg;
+            else
+                return EMPTY_TONE;
             return msg;
         }
         else{
-            return "";
+            return EMPTY_TONE;
         }
     }
 
