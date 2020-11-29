@@ -1,7 +1,7 @@
 AWARE Plugin: YOUR PLUGIN
 ==========================
 
-This plugin measures ...
+This plugin measures tone of keyboard data for every hour.
 
 # Settings
 Parameters adjustable on the dashboard and client:
@@ -14,10 +14,11 @@ Broadcast ..., with the following extras:
 
 # Providers
 ##  Template Data
-> content://com.aware.plugin.template.provider.xxx/plugin_template
+> content://com.aware.plugin.tone_analyser.provider.tone_analyser
 
 Field | Type | Description
 ----- | ---- | -----------
 _id | INTEGER | primary key auto-incremented
 timestamp | REAL | unix timestamp in milliseconds of sample
 device_id | TEXT | AWARE device ID
+tone      | TEXT | Tone analysed for previous hour
