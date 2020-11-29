@@ -43,7 +43,7 @@ public class RetrieveToneTask extends AsyncTask<Void,Void,String> {
     @Override
     protected void onPostExecute(String msg) {
         super.onPostExecute(msg);
-        Toast.makeText(context, "Emotion:" + msg, Toast.LENGTH_SHORT).show();
+        // Toast.makeText(context, "Emotion:" + msg, Toast.LENGTH_SHORT).show();
     }
 }
 

@@ -21,13 +21,13 @@ import java.util.HashMap;
 
 public class Provider extends ContentProvider {
 
-    public static String AUTHORITY = "com.aware.plugin.template.provider.tone_analyser"; //change to package.provider.your_plugin_name
+    public static String AUTHORITY = "com.aware.plugin.tone_analyser.provider.tone_analyser"; //change to package.provider.your_plugin_name
 
     public static final int DATABASE_VERSION = 1; //increase this if you make changes to the database structure, i.e., rename columns, etc.
     public static final String DATABASE_NAME = "tone_analyser.db"; //the database filename, use plugin_xxx for plugins.
 
     //Add here your database table names, as many as you need
-    public static final String DB_TBL_TEMPLATE = "table_one";
+    public static final String DB_TBL_TEMPLATE = "tone_analysis";
 
     //For each table, add two indexes: DIR and ITEM. The index needs to always increment. Next one is 3, and so on.
     private static final int TABLE_ONE_DIR = 1;
@@ -63,7 +63,7 @@ public class Provider extends ContentProvider {
         ToneAnalyser_Data._ID + " integer primary key autoincrement," +
         ToneAnalyser_Data.TIMESTAMP + " real default 0," +
         ToneAnalyser_Data.DEVICE_ID + " text default ''," +
-        ToneAnalyser_Data.TONE + " text default '',";
+        ToneAnalyser_Data.TONE + " text default ''";
 
     /**
      * Share the fields with AWARE so we can replicate the table schema on the server

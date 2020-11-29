@@ -114,7 +114,7 @@ public class Plugin extends Aware_Plugin {
                             Cursor keyboardCursor = getContentResolver().query(Keyboard_Provider.Keyboard_Data.CONTENT_URI,null, selection,selectionArgs,null);
                             List<String> text = new ArrayList<String>();
 
-                            if (keyboardCursor!=null){
+                            if (keyboardCursor!=null && keyboardCursor.getCount()>0){
                                 keyboardCursor.moveToFirst();
                                 do{
                                     text.add(keyboardCursor.getString(keyboardCursor.getColumnIndexOrThrow(Keyboard_Provider.Keyboard_Data.CURRENT_TEXT)));
