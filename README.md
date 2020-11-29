@@ -1,4 +1,4 @@
-AWARE Plugin: YOUR PLUGIN
+AWARE Plugin: TONE_ANALYSER
 ==========================
 
 This plugin measures tone of keyboard data for every hour.
